@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            height: 3322px;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+            display: inline-block;
+
+        }
+
+        #box1 {
+            background-color: green;
+
+            /* position: relative;     position relatives means relative to its normal position and leaving the gaps. */
+            position: relative;
+            /* top: 50px; */
+        }
+
+        #box3{
+            position: absolute;
+            background-color: yellow;
+            top: 150px;
+            left: 156px;
+          
+            width: 50px;
+            height: 50px;
+        }
+        #box4{
+            position: fixed;
+            right: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="box" id="box1">About</div>
+    <div class="box" id="box2">home</div>
+    <div class="box" id="box3">select</div>
+    <div class="box" id="box4">email</div>
+</div>
+</body>
+
+</html>
